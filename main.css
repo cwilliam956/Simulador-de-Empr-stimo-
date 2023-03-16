@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Golos+Text&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://s2.glbimg.com/rsxOyujjm17bnXKKkZiz7Gj0F3I=/e.glbimg.com/og/ed/f/original/2021/11/30/giphy.gif);
+    font-family: 'Golos Text', sans-serif;
+    color: rgb(216, 216, 216);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.bloco {
+    backdrop-filter: blur(5px);
+    background-color:rgba(24, 69, 75, 0.267);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.bloco h1 {
+    margin-bottom: 2rem;
+}
+
+.bloco label {
+    font-weight: bold;
+}
+
+.bloco p {
+    margin: .5rem 0;
+}
+
+.bloco a {
+    color: #fff;
+}
+
+.bloco input[type="text"], .bloco input[type="number"] {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border: 1px solid #aaa;
+}
+
+.bloco input::placeholder {
+    color: #fff;
+}
+
+.bloco select {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-top: .5rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: transparent;
+    color: #fff;
+    outline: none;
+    border: 1px solid #aaa;
+}
+
+.bloco select option {
+    background-color: #1e8563;
+    color: #fff;
+}
+
+.bloco input[type="checkbox"] {
+    transform: scale(1.5);
+    margin: 0 .5rem 0 0;
+    cursor: pointer;
+}
+
+.bloco input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: .5rem;
+    background-color: #fff;
+    color: #1e8563;
+    outline: none;
+    cursor: pointer;
+}
+
+.bloco input[type="radio"] {
+    transform: scale(1.5);
+    margin: .5rem;
+    cursor: pointer;
+}
